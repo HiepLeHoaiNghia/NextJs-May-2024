@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    ".eslintrc.cjs",
+    "tailwind.config.ts",
+    ".prettierrc.cjs",
+    "tsconfig.json",
+    "tsconfig.eslint.json",
+    "postcss.config.js"
+  ]
+}
