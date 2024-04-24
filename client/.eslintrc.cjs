@@ -21,6 +21,8 @@ module.exports = {
         'plugin:@next/next/recommended',
         'plugin:@typescript-eslint/strict-type-checked',
         'plugin:@typescript-eslint/stylistic-type-checked',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:react/recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
         'plugin:import/typescript',
@@ -30,9 +32,8 @@ module.exports = {
         'plugin:react/jsx-runtime',
         'plugin:jsx-a11y/recommended',
         'plugin:react-hooks/recommended',
-        'plugin:prettier/recommended',
         'eslint-config-prettier',
-        'next/core-web-vitals',
+        'plugin:prettier/recommended',
         'prettier'
       ],
       plugins: [
@@ -67,6 +68,7 @@ module.exports = {
         }
       },
       rules: {
+        'react/react-in-jsx-scope': 'off',
         'no-plusplus': 'off',
         'simple-import-sort/imports': [
           'warn',
