@@ -68,7 +68,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border font-sansita;
   }
   body {
     @apply bg-background text-foreground;

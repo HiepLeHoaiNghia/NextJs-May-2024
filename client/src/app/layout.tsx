@@ -4,6 +4,8 @@ import type { Metadata } from 'next'
 import { Sansita } from 'next/font/google'
 import localFont from 'next/font/local'
 
+import ButtonRedirect from '~/app/components/ButtonRedirect'
+
 const sansita = Sansita({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
@@ -27,7 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={sansitaLocal.variable}>{children}</body>
+      <body className={sansitaLocal.variable}>
+        <header>Root Layout</header>
+        <ButtonRedirect />
+        {children}
+      </body>
     </html>
   )
 }
