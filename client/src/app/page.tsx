@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { redirect } from 'next/navigation'
 
 export default function Home() {
-  const isAuth = true
-  if (!!isAuth) {
-    // ? redirect('/login') sẽ chuyển hướng người dùng đến trang login nếu chưa login
-    // redirect chạy trong quá  trình render
-    // ! redirect k thể sử dụng trong event handler, nếu muốn sử dụng thì phải sử dụng router.push
-    redirect('/login')
-  }
+  // const isAuth = true
+  // if (!!isAuth) {
+  // ? redirect('/login') sẽ chuyển hướng người dùng đến trang login nếu chưa login
+  // redirect chạy trong quá  trình render
+  // ! redirect k thể sử dụng trong event handler, nếu muốn sử dụng thì phải sử dụng router.push
+  redirect('/login')
+  // }
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24 font-sansita font-bold'>
       <ul>
