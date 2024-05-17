@@ -1,9 +1,9 @@
 'use client'
 
-import BigCalendar from '~/app/components/BigCalendar'
-import dumpEvents from '~/app/components/BigCalendar/resource/events/dumpEvents'
-import { type CalendarEvent, type TimeManagementSettings } from '~/app/components/BigCalendar/types'
-import { RequestType } from '~/app/core/enums'
+import { BigCalendar } from '~/components/BigCalendar'
+import dumpEvents from '~/components/BigCalendar/resource/events/dumpEvents'
+import { type CalendarEvent, type TimeManagementSettings } from '~/components/BigCalendar/types'
+import { RequestType } from '~/core/enums'
 
 function LoginPage() {
   const timeManagementSettings: TimeManagementSettings<RequestType> = [
@@ -36,12 +36,11 @@ function LoginPage() {
   ]
 
   return (
-    // <BigCalendar
-    //   timeManagementSettings={timeManagementSettings}
-    //   datePickerShape='round'
-    //   events={dumpEvents as CalendarEvent[]}
-    // />
-    <div>123</div>
+    <BigCalendar
+      timeManagementSettings={timeManagementSettings}
+      datePickerShape='round'
+      events={dumpEvents as CalendarEvent[]}
+    />
   )
 }
 
