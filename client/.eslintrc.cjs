@@ -68,6 +68,12 @@ module.exports = {
         }
       },
       rules: {
+        '@typescript-eslint/no-unused-expressions': [
+          'error',
+          {
+            allowShortCircuit: true
+          }
+        ],
         'react/react-in-jsx-scope': 'off',
         'no-plusplus': 'off',
         'simple-import-sort/imports': [

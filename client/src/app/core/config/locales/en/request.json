@@ -1,0 +1,15 @@
+{
+  "date": "Date",
+  "startHour": "Start Hour",
+  "endHour": "End Hour",
+  "totalDay": "Total Day",
+  "reason": "Reason",
+  "approver": "Approver",
+  "status": "Status",
+  "createRequest": "Create Request",
+  "requestType": "Request Type",
+  "editTimeSheet": "Request edit timesheet",
+  "requestPaidLeave": "Request paid leave",
+  "requestUnpaidLeave": "Request unpaid leave",
+  "requestOT": "Request for overtime (OT)"
+}

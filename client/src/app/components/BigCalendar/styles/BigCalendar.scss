@@ -1,0 +1,88 @@
+.hide-outside-days {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.days-of-past {
+  @apply bg-gray-100;
+
+  &:hover {
+    @apply cursor-not-allowed bg-gray-100 #{!important};
+  }
+}
+
+.rbc-month-row {
+  @apply shadow-lg;
+  .rbc-day-bg:hover {
+    @apply cursor-pointer bg-gray-200;
+  }
+  .rbc-selected-cell {
+    @apply bg-gray-200;
+  }
+  .rbc-today {
+    @apply bg-gray-300;
+  }
+}
+
+.rbc-day-bg + .rbc-day-bg {
+  @apply border-l-0;
+}
+.rbc-month-header {
+  @apply shadow-lg;
+}
+
+.rbc-header {
+  @apply border-none py-3;
+}
+
+.rbc-header + .rbc-header {
+  @apply border-l-0;
+}
+
+.rbc-btn-group {
+  @apply rounded-md border border-gray-300;
+  button {
+    @apply border-none shadow-lg;
+  }
+  button:hover {
+    @apply drop-shadow-lg transition-shadow;
+  }
+  button + button {
+    @apply border-none;
+  }
+  .rbc-active {
+    @apply border-none;
+  }
+}
+
+.rbc-toolbar {
+  @apply m-0 rounded-t-md border border-b-0 p-4;
+}
+
+.rbc-show-more {
+  @apply text-slate-500;
+}
+.rbc-show-more:hover {
+  @apply text-slate-900;
+}
+
+.rbc-date-cell {
+  .rbc-button-link {
+    @apply flex cursor-pointer p-2 font-semibold text-gray-500;
+  }
+  .rbc-button-link:hover {
+    @apply text-slate-900;
+  }
+}
+
+.rbc-row-content {
+  .rbc-row-segment {
+    @apply border-none;
+  }
+}
+
+.rbc-agenda-table {
+  .rbc-agenda-event-cell {
+    @apply cursor-pointer;
+  }
+}

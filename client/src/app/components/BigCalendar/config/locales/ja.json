@@ -1,0 +1,103 @@
+{
+  "calendarMessages": {
+    "date": "日付",
+    "time": "時間",
+    "event": "イベント",
+    "allDay": "終日",
+    "week": "週",
+    "work_week": "仕事週",
+    "day": "日",
+    "month": "月",
+    "previous": "<",
+    "next": ">",
+    "yesterday": "昨日",
+    "tomorrow": "明日",
+    "today": "今日",
+    "agenda": "予定",
+    "showMore": "もっと",
+    "noEventsInRange": "この範囲内のイベントはありません。"
+  },
+  "languageSelector": {
+    "selectorPlaceholder": "言語を選択",
+    "languageSelectorMenu": [
+      {
+        "localeCode": "en",
+        "label": "English"
+      },
+      {
+        "localeCode": "vi",
+        "label": "Tiếng Việt"
+      },
+      {
+        "localeCode": "ja",
+        "label": "日本語"
+      }
+    ]
+  },
+  "calendarDialog": {
+    "saveBtn": "保存",
+    "cancelBtn": "キャンセル",
+    "deleteBtn": "削除",
+    "enableEditModeBtn": "編集",
+    "editEventTitle": "イベントを編集",
+    "createEventTitle": "イベントを作成",
+    "editEventDescription": "ここでイベントの詳細を編集します。",
+    "createEventDescription": "ここでイベントの詳細を作成します。"
+  },
+  "calendarForm": {
+    "requestType": {
+      "label": "リクエストの種類",
+      "placeholder": "リクエストの種類を選択してください",
+      "selectItems": {
+        "editTimeSheet": "タイムシートを編集",
+        "paidLeave": "有給休暇",
+        "unpaidLeave": "無給休暇",
+        "remoteWork": "リモートワーク",
+        "overtime": "残業"
+      }
+    },
+    "requestStatus": {
+      "label": "ステータス",
+      "placeholder": "ステータスが選択されていません",
+      "selectItems": {
+        "pending": "保留中",
+        "approved": "承認済み",
+        "rejected": "却下済み"
+      }
+    },
+    "title": {
+      "label": "タイトル",
+      "placeholder": "タイトルを入力"
+    },
+    "description": {
+      "label": "説明",
+      "placeholder": "説明を入力"
+    },
+    "startDate": {
+      "label": "開始日",
+      "placeholder": "開始日を選択"
+    },
+    "endDate": {
+      "label": "終了日",
+      "placeholder": "終了日を選択"
+    },
+    "timeSelect": {
+      "label": "時間"
+    }
+  },
+  "common": {
+    "createEventButton": "イベントを作成",
+    "timePicker": {
+      "periodSelectorItems": [
+        {
+          "value": "AM",
+          "label": "午前"
+        },
+        {
+          "value": "PM",
+          "label": "午後"
+        }
+      ]
+    }
+  }
+}

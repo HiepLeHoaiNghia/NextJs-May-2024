@@ -1,0 +1,103 @@
+{
+  "calendarMessages": {
+    "date": "Ngày",
+    "time": "Thời gian",
+    "event": "Sự kiện",
+    "allDay": "Cả ngày",
+    "week": "Tuần",
+    "work_week": "Tuần làm việc",
+    "day": "Ngày",
+    "month": "Tháng",
+    "previous": "<",
+    "next": ">",
+    "yesterday": "Hôm qua",
+    "tomorrow": "Ngày mai",
+    "today": "Hôm nay",
+    "agenda": "Lịch công việc",
+    "showMore": "nữa",
+    "noEventsInRange": "Không có sự kiện nào trong khoảng thời gian này."
+  },
+  "languageSelector": {
+    "selectorPlaceholder": "Chọn ngôn ngữ",
+    "languageSelectorMenu": [
+      {
+        "localeCode": "en",
+        "label": "English"
+      },
+      {
+        "localeCode": "vi",
+        "label": "Tiếng Việt"
+      },
+      {
+        "localeCode": "ja",
+        "label": "日本語"
+      }
+    ]
+  },
+  "calendarDialog": {
+    "saveBtn": "Lưu",
+    "cancelBtn": "Hủy bỏ",
+    "deleteBtn": "Xóa",
+    "enableEditModeBtn": "Chỉnh sửa",
+    "editEventTitle": "Chỉnh sửa sự kiện",
+    "createEventTitle": "Tạo sự kiện",
+    "editEventDescription": "Chỉnh sửa chi tiết sự kiện tại đây.",
+    "createEventDescription": "Tạo chi tiết sự kiện tại đây."
+  },
+  "calendarForm": {
+    "requestType": {
+      "label": "Loại yêu cầu",
+      "placeholder": "Chọn loại yêu cầu",
+      "selectItems": {
+        "editTimeSheet": "Chỉnh sửa bảng chấm công",
+        "paidLeave": "Nghỉ có lương",
+        "unpaidLeave": "Nghỉ không lương",
+        "remoteWork": "Làm việc từ xa",
+        "overtime": "Làm thêm giờ"
+      }
+    },
+    "requestStatus": {
+      "label": "Trạng thái",
+      "placeholder": "Trạng thái chưa chọn",
+      "selectItems": {
+        "pending": "Đang chờ",
+        "approved": "Đã duyệt",
+        "rejected": "Bị từ chối"
+      }
+    },
+    "title": {
+      "label": "Tiêu đề",
+      "placeholder": "Nhập tiêu đề"
+    },
+    "description": {
+      "label": "Mô tả",
+      "placeholder": "Nhập mô tả"
+    },
+    "startDate": {
+      "label": "Ngày bắt đầu",
+      "placeholder": "Chọn ngày bắt đầu"
+    },
+    "endDate": {
+      "label": "Ngày kết thúc",
+      "placeholder": "Chọn ngày kết thúc"
+    },
+    "timeSelect": {
+      "label": "Giờ"
+    }
+  },
+  "common": {
+    "createEventButton": "Tạo sự kiện",
+    "timePicker": {
+      "periodSelectorItems": [
+        {
+          "value": "AM",
+          "label": "sáng"
+        },
+        {
+          "value": "PM",
+          "label": "chiều"
+        }
+      ]
+    }
+  }
+}

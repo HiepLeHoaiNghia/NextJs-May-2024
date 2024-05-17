@@ -1,0 +1,14 @@
+{
+  "date": "日付",
+  "startHour": "開始時間",
+  "endHour": "終了時間",
+  "totalDay": "総時間",
+  "reason": "理由",
+  "approver": "承認者",
+  "status": "ステータス",
+  "createRequest": "新しいリクエストを作成する",
+  "editTimeSheet": "Request edit timesheet",
+  "requestPaidLeave": "Request paid leave",
+  "requestUnpaidLeave": "Request unpaid leave",
+  "requestOT": "Request for overtime (OT)"
+}

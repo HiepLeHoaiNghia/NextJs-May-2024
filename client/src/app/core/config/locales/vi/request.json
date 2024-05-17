@@ -1,0 +1,19 @@
+{
+  "fullName": "Họ và tên",
+  "date": "Ngày",
+  "startHour": "Giờ bắt đầu",
+  "endHour": "Giờ kết thúc",
+  "totalDay": "Tổng số ngày",
+  "reason": "Lý do",
+  "approver": "Người phê duyệt",
+  "status": "Trạng thái",
+  "createRequest": "Tạo yêu cầu mới",
+  "requestType": "Loại yêu cầu",
+  "editTimeSheet": "Yêu cầu chỉnh sửa timesheet",
+  "requestPaidLeave": "Yêu cầu nghỉ phép có lương",
+  "requestUnpaidLeave": "Yêu cầu nghỉ phép không lương",
+  "requestOT": "Yêu cầu làm ngoài giờ (OT)",
+  "company": "Công ty",
+  "createdAt": "Ngày tạo yêu cầu",
+  "dateRequest": "Ngày yêu cầu"
+}

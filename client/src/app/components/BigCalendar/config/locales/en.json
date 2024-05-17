@@ -1,0 +1,103 @@
+{
+  "calendarMessages": {
+    "date": "Date",
+    "time": "Time",
+    "event": "Event",
+    "allDay": "All day",
+    "week": "Week",
+    "work_week": "Work Week",
+    "day": "Day",
+    "month": "Month",
+    "previous": "<",
+    "next": ">",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "today": "Today",
+    "agenda": "Agenda",
+    "showMore": "more",
+    "noEventsInRange": "No events in  this range."
+  },
+  "languageSelector": {
+    "selectorPlaceholder": "Select a language",
+    "languageSelectorMenu": [
+      {
+        "localeCode": "en",
+        "label": "English"
+      },
+      {
+        "localeCode": "vi",
+        "label": "Tiếng Việt"
+      },
+      {
+        "localeCode": "ja",
+        "label": "日本語"
+      }
+    ]
+  },
+  "calendarDialog": {
+    "saveBtn": "Save",
+    "cancelBtn": "Cancel",
+    "deleteBtn": "Delete",
+    "enableEditModeBtn": "Edit",
+    "editEventTitle": "Edit Event",
+    "createEventTitle": "Create Event",
+    "editEventDescription": "Edit the event details here.",
+    "createEventDescription": "Create the event details here."
+  },
+  "calendarForm": {
+    "requestType": {
+      "label": "Request type",
+      "placeholder": "Select request type",
+      "selectItems": {
+        "editTimeSheet": "Edit timesheet",
+        "paidLeave": "Paid leave",
+        "unpaidLeave": "Unpaid leave",
+        "remoteWork": "Remote work",
+        "overtime": "Overtime"
+      }
+    },
+    "requestStatus": {
+      "label": "Status",
+      "placeholder": "Status not selected",
+      "selectItems": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      }
+    },
+    "title": {
+      "label": "Title",
+      "placeholder": "Enter the title"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Enter the description"
+    },
+    "startDate": {
+      "label": "Start Date",
+      "placeholder": "Pick a start date"
+    },
+    "endDate": {
+      "label": "End Date",
+      "placeholder": "Pick an end date"
+    },
+    "timeSelect": {
+      "label": "Time"
+    }
+  },
+  "common": {
+    "createEventButton": "Create Event",
+    "timePicker": {
+      "periodSelectorItems": [
+        {
+          "value": "AM",
+          "label": "AM"
+        },
+        {
+          "value": "PM",
+          "label": "PM"
+        }
+      ]
+    }
+  }
+}
